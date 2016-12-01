@@ -1,0 +1,4 @@
+
+{:require  [pop.tx.put]
+ :aws-lambda/handler pop.tx.put/main
+ :compiler-options {:target :nodejs}}

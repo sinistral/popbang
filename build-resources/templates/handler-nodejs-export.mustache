@@ -1,0 +1,13 @@
+
+// Inserted by custom Boot task: `handler`.
+//
+// In order for AWS Lambda to be able to resolve the handler name provided in
+// the function configuration, [the name] must be visible at the root of the
+// module.  NodeJS achieves this using its special `modules.exports` object.
+// Here we do just this, exposing the implementing function under an alias for
+// to avoid having to used a munged name as the handler name.
+//
+// cf. https://nodejs.org/api/modules.html#modules_module_exports,
+// and https://nodejs.org/api/modules.html#modules_exports_alias
+
+exports.{{export-as}} = {{export-fn}}
