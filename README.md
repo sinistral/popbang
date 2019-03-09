@@ -15,12 +15,10 @@ according to a rather meagre budget.
 
 ## License
 
-Copyright © 2016 Marc Daya
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Published under the [2-clause BSD license][license].
 
 [aws]:           http://aws.amazon.com/
 [aws lambda]:    https://aws.amazon.com/lambda/
 [clojurescript]: http://github.com/clojure/clojurescript
 [pop!]:          https://en.wikipedia.org/wiki/Pop_Goes_the_Weasel#Lyrics
+[license]: https://opensource.org/licenses/BSD-2-Clause
